@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="method.HelloWorld"/>
+    <fullyQualifiedTypeName name="method.Calc"/>
+    <fullyQualifiedTypeName name="method.Calc2"/>
+    <fullyQualifiedTypeName name="com.sun.swing.internal.plaf.metal.resources.metal"/>
+    <fullyQualifiedTypeName name="method.Member"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="instant.Book"/>
+    <fullyQualifiedTypeName name="instant.User"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="instant.Article"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.gc.shared.ContiguousSpace"/>
+    <fullyQualifiedTypeName name="hiding.User"/>
+    <fullyQualifiedTypeName name="hiding.Student"/>
+    <fullyQualifiedTypeName name="hiding.Member"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="hiding.Article"/>
+</qualifiedTypeNameHistroy>

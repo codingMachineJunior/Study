@@ -1,0 +1,44 @@
+package method;
+
+/* ¸Þ¼­µå ½Ç½À
+ * 
+ * »çÄ¢¿¬»ê ±¸ÇÏ±â
+ * 
+ * Calc2 Å¬·¡½º¸¦ »ý¼ºÇØ¼­
+ * - plus(),minus(),times(),divide() ¸Þ¼­µå 4°³ 
+ * - param1, param2, return
+ */
+
+class Calc2{
+
+	int plus(int param1, int param2) {
+		return param1 + param2;
+	}
+	int minus(int param1, int param2) {
+		return param1 - param2;
+	}
+	int times(int param1, int param2) {
+		return param1 * param2;
+	}
+	int divide(int param1, int param2) {
+		int result = 0;	
+		if(param2!=0) 
+			result= param1/param2;
+		
+		return result;
+	}
+}
+
+
+public class Main03 {
+	public static void main(String[] args) {		
+		Calc2 c1 = new Calc2();
+		int a=10,b=5;
+		
+		System.out.println(a+"+"+b+"="+c1.plus(10, 20));
+		System.out.println("»¬¼À : "+c1.minus(20, 10));
+		System.out.println("°ö¼À : "+c1.times(30, 2));
+		System.out.println("³ª´°¼À : "+c1.divide(40, 10));
+	}
+	
+}

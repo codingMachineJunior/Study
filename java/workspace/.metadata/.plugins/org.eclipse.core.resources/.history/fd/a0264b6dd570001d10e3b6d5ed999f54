@@ -1,0 +1,16 @@
+package instant;
+
+class Book{
+	String subject;
+	String content;
+	
+	Book(){
+		System.out.println("---생성자 실행---");
+	}
+}
+
+public class Main01 {
+	public static void main(String[] args) {
+		Book book = new Book();
+	}
+}

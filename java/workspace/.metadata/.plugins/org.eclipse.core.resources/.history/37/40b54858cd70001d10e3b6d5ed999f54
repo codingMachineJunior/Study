@@ -1,0 +1,37 @@
+package method;
+
+/* 메서드 실습
+ * 
+ * Calc2 클래스를 생성해서
+ * - plus(),minus(),times(),divide() 메서드 4개 
+ * - param1, param2, return
+ */
+
+class Calc2{
+
+	int plus(int param1, int param2) {
+		return param1 + param2;
+	}
+	int minus(int param1, int param2) {
+		return param1 - param2;
+	}
+	int times(int param1, int param2) {
+		return param1 * param2;
+	}
+	int divide(int param1, int param2) {
+		return param1 / param2;
+	}
+}
+
+
+public class Main03 {
+	public static void main(String[] args) {		
+		Calc2 c1 = new Calc2();
+		
+		System.out.println("합계 : "+c1.plus(10, 20));
+		System.out.println("합계 : "+c1.minus(20, 10));
+		System.out.println("합계 : "+c1.times(30, 2));
+		System.out.println("합계 : "+c1.divide(40, 10));
+	}
+	
+}

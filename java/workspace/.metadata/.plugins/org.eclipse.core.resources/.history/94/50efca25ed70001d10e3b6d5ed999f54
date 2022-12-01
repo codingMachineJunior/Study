@@ -1,0 +1,12 @@
+package hiding;
+
+class User{
+	public String name = "»ç¿ëÀÚ";
+	private int age = 20;
+}
+
+public class Main01 {
+	public static void main(String[] args) {
+		
+	}
+}

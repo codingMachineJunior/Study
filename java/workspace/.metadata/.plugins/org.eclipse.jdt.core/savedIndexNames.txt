@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\ljh_web\Web-BackEnd-Study\java\workspace\.metadata\.plugins\org.eclipse.jdt.core
+2525153150.index
+4122613928.index
